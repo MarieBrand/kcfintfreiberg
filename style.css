@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+    list-style:none ;
+}
+header h2{
+    color: blue;
+}
+main{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+img,video{
+    width: 100%;
+}
+footer img{
+    width: 100px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+h2.welcome{
+    border: 3px solid gold;
+    padding: 10px;
+    font-family: "Pattaya", serif;
+}
